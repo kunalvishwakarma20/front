@@ -9,7 +9,7 @@ import user from "../assets/user.svg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { ShopContext } from "../context/shopContext";
+import { ShopContext } from "../context/ShopContext";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
